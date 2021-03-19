@@ -1,0 +1,266 @@
+/*
+My color scheme: ligth blue #0779E4;
+*/
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rokkitt', serif;
+	font-size: 19px;
+}
+#headerContainer {
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+	padding: 40px 0 0 0;
+}
+.logo {
+	width: 100px;
+	position: relative;
+	top: -26px;
+}
+h1 {
+	font-size: 34px;
+}
+h2 {
+	text-align: center;
+	margin-top: 75px;
+	color: #0779E4;
+}
+#logoId {
+	float: left;
+	position: relative;
+	left: 200px;	
+}
+#navContainer {
+	margin-left: 450px;
+	
+}
+#navContainer a {
+	padding-right: 50px;
+	color: #0779E4;;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+.clearFloat {
+	clear: both;
+}
+
+#myBreadcrumb {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 500px;
+	background-color: #4FA0E9;
+	background-image: url("mybg.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.introDiv {
+	width: 50%;
+	height: 500px;
+	color: white;
+	/*background-color: black;*/
+	margin-bottom: 5px;
+	color: #0779E4;
+}
+
+.myImage {
+	width: 418px;
+	float: right;
+}
+.myIntro {
+	margin: 80px 0 0 80px;
+}
+.salutation {
+	background-color: white;
+	border-radius: 6px;
+	color: black;
+}
+.service {
+	margin: 0 auto;
+	padding: 15px 0 0 0;
+	position: relative;
+	top: 35px;
+	bottom: 35px;	
+	width: 30%;
+	height: 278px;
+	text-align: center;
+	border: 3px solid #0779E4;
+	border-radius: 10px;
+	box-shadow: 5px 10px 18px #0779E4;
+	/*background-color: blue;*/
+}
+#servicesContainer {
+	display: flex;
+	flex-direction: row;
+	
+} 
+
+.textBg {
+	background-color: #0779E4;
+	color: white;
+	padding: 5px 16px;
+}
+
+#aboutSection {
+	width: 100%;
+	height: 100%;
+	padding: 75px 0 32px 0;
+	display: flex;
+	flex-direction: row;
+}
+.aboutDiv {
+	width: 45%;
+	margin: 0 auto;
+	text-align: center;
+}
+#footerContainer {
+	padding: 75px 0 44px 0;
+	display: flex;
+	background-color: #0779E4;
+	margin: 150px 0 0 0;
+}
+.footerColumn {
+	width: 32%;
+	height: 100%;
+	color: white;
+	margin: 0 auto;
+	padding-left: 42px;
+}
+.footerColumn a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+ul {
+	list-style-type: none;
+}
+
+.icons {
+	width: 30px;
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*My media query*/
+@media only screen and (max-width: 1000px) {
+
+	#headerContainer {
+		width: 100%;
+		display: flex;  
+		flex-direction: column;
+		height: 100%;
+	}
+	
+	#navContainer {
+		display: inline;
+		font-size: 13px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		padding-left: 45px;
+		margin-top: 10px;
+	}
+	#navContainer a {
+		text-align: center;
+		float: left;
+		margin: 19px;
+	}
+	#logoId {
+	margin: 0 auto;
+	position: relative;
+	left: -5px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+ 
+	html, body {
+	width:100%;
+	overflow-x:hidden;
+	}
+  #servicesContainer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	}
+	.service {
+		width: 90%;
+		margin-bottom: 13px;
+		align-items: center;
+	}
+	#headerContainer {
+		width: 100%;
+		display: flex;  
+		flex-direction: column;
+		height: 100%;
+	}
+	#navContainer {
+		display: inline;
+		font-size: 13px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		padding-left: 45px;
+		margin-top: 10px;
+	}
+	#logoId {
+	position: relative;
+	left: 0;	
+	}	
+	#navContainer a {
+		text-align: center;
+		float: left;
+		margin: 19px;
+	}
+	.headerDiv {
+		margin: 0 auto;
+	}
+	#myBreadcrumb {
+		display: flex;
+		flex-direction: column;
+	}
+	.introDiv {
+		width: 100%;
+	}
+	.myIntro {
+	margin: 0 auto;
+	padding: 5px 15px;
+	}
+	.hideOnMobile {
+		display: none;
+	}
+	#aboutSection {
+	display: flex;
+	flex-direction: column;
+	}
+	.aboutDiv {
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+	#footerContainer {
+	display: flex;
+	flex-direction: column;
+	}
+	.footerColumn {
+		width: 80%;
+	}
+  
+}
