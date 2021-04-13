@@ -119,6 +119,7 @@ h2 {
 	width: 45%;
 	margin: 0 auto;
 	text-align: center;
+	/*padding:40px 0 0 0;*/
 }
 #footerContainer {
 	padding: 75px 0 44px 0;
@@ -132,6 +133,7 @@ h2 {
 	color: white;
 	margin: 0 auto;
 	padding-left: 42px;
+	text-align:left;
 }
 .footerColumn a {
 	text-decoration: none;

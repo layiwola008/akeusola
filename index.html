@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 
     <title>Olayiwola Akeusola: A Web Developer</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
@@ -15,16 +15,18 @@
 	<!-- I am using Google Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
-
-
   </head>
   <body>
+
+	  <!--- -----My Header Container------->
 		<header id="headerContainer">
 			<div class="headerDiv" id="logoId">
 				<img src="images/my_logo.png" class="logo">
 			</div>
 			
 			<div class="headerDiv">
+				
+				<!---------My Navbars------->
 				<nav id="navContainer">
 					<a href="#">Home</a>
 					<a href="#aboutSection">About</a>
@@ -40,12 +42,16 @@
 		
 		
 		
-		
+	<!--------My Main container-------->	
 		<main>
+
+			<!--------My Introduction  Section------->
 			<section id="myBreadcrumb">
 				<div class="introDiv">
 					<div class="myIntro">
 					<p><span class="salutation">Hi There!</span></p>
+
+					<!---------My <h1> tag------------>
 					<h1>I AM KAREEM AKEUSOLA</h1>
 					<div class="textBg"><p>Creative web developer with passion for problem-solving web apps. Diversity abounds in the world and no man knows it all. <br/><br/>
 					
@@ -63,15 +69,18 @@
 			<div class="clearFloat"></div>
 			
 			
-			
+			<!--------My AboutMe Section--------->
 			<section id="aboutSection">
 				<div class="aboutDiv">
 					<img src="images/ola.png">
 				</div>
 				
 				<div class="aboutDiv">
+
+					<!-----------My <h2> tag------------>
 					<h2>A LITTLE ABOUT ME</h2>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<br/><br/> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. <br/><br/>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. <br/><br/>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<br/><br/> I am a social scientist with an eye for simplicity and functionality,  this makes my work to be solution driven. <br/><br/>
+					   On my spare time, 1 enjoy travelling and researching.</p>
 				</div>			
 			</section>
 			
@@ -82,43 +91,44 @@
 			
 			
 			
-			
-				<article>
-			<h2>MY SERVICES AND EXPERTISE</h2>
-			<section id="servicesContainer">
-				
+			<!---------Article tag------------>
+			<article>
+				<h2>MY SERVICES AND EXPERTISE</h2>
+				<section id="servicesContainer">
 					
-				<div class="service">
-						<i class="fas fa-laptop-code fa-5x"></i> <br/>						
-						<h3>Web Development</h3>
-						<p>I develop simple and complex responsive web applications that facilitate businesses and ease procedures, resulting in better feasibility. </p>
 						
-				</div>
+					<div class="service">
+							<i class="fas fa-laptop-code fa-5x"></i> <br/>						
+							<h3>Web Development</h3>
+							<p>I develop simple and complex responsive web applications that facilitate businesses and ease procedures, resulting in better feasibility. </p>
+							
+					</div>
+					
+					<div class="service">
+						<i class="fas fa-mobile-alt fa-5x"></i> <br/>
+						<h3>Mobile Application</h3>
+						<p>The world has become a global village and mobile phones are playing a big part. I develop intuitive mobile apps for my clients with love and passion.</p>
+					
+					</div>
+					
+					
+					<div class="service">
+						<i class="fas fa-mouse fa-5x"></i><br/>
+						<h3>Graphics Design</h3>
+						<p>Beauty is all around us; my eyes for aesthetics especially in the natural environment shape my outcome when planning graphics design projects.</p>
+					</div>
+				</section>
+			</article>
 				
-				<div class="service">
-					<i class="fas fa-mobile-alt fa-5x"></i> <br/>
-					<h3>Mobile Application</h3>
-					<p>The world has become a global village and mobile phones are playing a big part. I develop intuitive mobile apps for my clients with love and passion.</p>
-				
-				</div>
-				
-				
-				<div class="service">
-					<i class="fas fa-mouse fa-5x"></i><br/>
-					<h3>Graphics Design</h3>
-					<p>Beauty is all around us; my eyes for aesthetics especially in the natural environment shape my outcome when planning graphics design projects.</p>
-				</div>
-				</article>
-			</section>
-			
 			
 			
 		</main>
 		
+		<!--------My Footer tag-------->
 		<footer id="footerContainer">
 			<div class="footerColumn">
 				<h3>Why Work With Me?</h3>
-				<p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+				<p>We have a committed team of experts that are passionate and results oriented.<br/><br/> We work with our clients all through the projects from idea conceptualization to the actual project delivery thereby ensuring that the end-in-mind are delightfully met!!!</p>
 			</div>
 			
 			
@@ -126,14 +136,14 @@
 			<div class="footerColumn">
 				<h3>Site Links</h3>
 				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">About Me</a></li>
-					<li><a href="">My Services</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#aboutSection">About Me</a></li>
+					<li><a href="#servicesContainer">My Services</a></li>
 					
 				</ul>
 			</div>
 			
-			
+			<!-------MY FOOTER CONTAINER------>
 			
 			<div class="footerColumn">
 				<h3>Contact Me</h3>
@@ -145,8 +155,7 @@
 				
 				<div id="socialIcons">
 					<a href="https://github.com/akeusola"><img src="images/git.png" class="icons"></a>
-					<a href="https://www.linkedin.com/in/kareem-akeusola-560252a7/
-"><img src="images/linkedin.png" class="icons"></a>
+					<a href="https://www.linkedin.com/in/kareem-akeusola-560252a7/"><img src="images/linkedin.png" class="icons"></a>
 					<a href="mailto:akeusola.olayiwola@gmail.com"><img src="images/mail.png" class="icons"></a>
 				</div>
 			</div>		
